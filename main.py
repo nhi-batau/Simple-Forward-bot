@@ -93,7 +93,7 @@ async def start(client: Client, msg: Message):
         "• /targetinfo –Information about target\n\n"
         "<blockquote>🚀 **Use the bot to forward messages fast and easily!**</blockquote>\n",
         reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/Dc5txt_bot")]
+        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/Thebhumihar")]
         ])
     )
 #================================ Set filters =============================
