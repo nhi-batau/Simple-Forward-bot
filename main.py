@@ -36,10 +36,6 @@ cancel_flags = {}
 async def set_bot_commands(client, message):
     commands = [
         BotCommand("start", "🚀 Start the bot"),
-        BotCommand("add", "➕ Add authorized user"),
-        BotCommand("rem", "➖ Remove authorized user"),
-        BotCommand("clear", "🗑️ Clear all authorized users"),
-        BotCommand("users", "👥 List premium users"),
         BotCommand("target", "🎯 Set target channel"),
         BotCommand("filters", "🔍 Toggle media filters"),
         BotCommand("cancel", "🛑 Cancel forwarding"),
